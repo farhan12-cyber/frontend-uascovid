@@ -1,0 +1,55 @@
+.container {
+    padding: 0 2rem;
+    color: #fff;
+  }
+  
+  .indo {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .indo__title {
+    text-align: center;
+  }
+  .indo__indo{
+      color: orange;
+  }
+  .indo__covid{
+      color: rgb(12, 8, 11);
+  }
+  
+  .indo__update {
+    text-align: center;
+    color: orange;
+  }
+  .card {
+    width: 100%;
+    background-color: #06D6A0;
+    margin: 2rem 0;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 0.01rem rgba(152, 67, 11, 0.3);
+    border: 2px solid #fff;
+  }
+  
+  .status {
+    color: #fff;
+    font-size: 20px;
+  }
+  .card:nth-child(2) h2 {
+    color: #EF476F;
+  }
+  .card:nth-child(3) h2 {
+    color: #118AB2;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .indo__body {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+.container {
+    padding: 0rem 2rem;
+    text-align: center;
+  }
+  
+  .provinsi {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .provinsi__provinsi{
+      color: orange;
+  }
+  
+  .provinsi__body {
+    overflow-x: auto;
+  }
+  
+  .provinsi__table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(246, 201, 1);
+  }
+  
+  .provinsi__table th,
+  td {
+    padding: 2rem 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  @media (max-width: 320px){
+    .provinsi__table{
+    width: 100%;
+    }
+  }

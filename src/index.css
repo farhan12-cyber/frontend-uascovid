@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Mono:wght@200&family=Rowdies:wght@400;700&family=Source+Serif+4:wght@200&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
